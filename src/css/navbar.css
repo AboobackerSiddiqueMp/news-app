@@ -1,0 +1,33 @@
+#navlist{
+    display: flex;
+    list-style: none;
+    background-color: rgb(14, 14, 14);
+    color: white;
+    padding: 10px;
+
+
+    
+}
+
+#naveli{
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    color:#ABB2B9;
+    
+
+}
+#naveli:hover{
+    color: white;
+}
+#navTitle{
+    margin-right:30px;
+    font-weight: 800;
+    font-size: 30px;
+
+
+}
+#category{
+    display: flex;
+}
