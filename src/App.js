@@ -3,7 +3,7 @@ import NewsBody from "./components/NewsBody";
 import { Route, Routes,BrowserRouter as Router } from 'react-router-dom'
 function App() {
   return (
-    <div className="App" style={{ backgroundColor: '#34495E', width: '100%',}}>
+    <div className="App" style={{ backgroundColor: '#34495E', width: '100%',height:'100%'}}>
         <Navbar></Navbar>
           <Routes>
             <Route path="/"  key='general' element={<NewsBody category='general'></NewsBody>}></Route>

@@ -62,7 +62,7 @@ function NewsBody(props) {
         }
         style={{ overflow: 'hidden' }}
       >
-        <div className="container">
+        <div className="container" >
           <div className="row d-flex align-items-center justify-content-center">
             {news.map((data, index) => (
               <div className="col-md-4 d-flex col-s-1 align-items-center justify-content-center" key={index}>
