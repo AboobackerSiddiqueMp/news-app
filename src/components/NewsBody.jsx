@@ -64,6 +64,7 @@ function NewsBody(props) {
       >
         <div className="container" >
           <div className="row d-flex align-items-center justify-content-center">
+            <h1 style={{color:'white',marginLeft:'130px'}}>News Monkey-Top {props.name} News</h1>
             {news.map((data, index) => (
               <div className="col-md-4 d-flex col-s-1 align-items-center justify-content-center" key={index}>
                 <News1 title={data.title} img={data.urlToImage} url={data.url} source={data.source.name}></News1>
